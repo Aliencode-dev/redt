@@ -1,0 +1,476 @@
+@font-face {
+    font-family: 'aileronblack';
+    src: url('./font/aileron-black-webfont.woff2') format('woff2'),
+         url('./font/aileron-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.blacktxt{
+    font-family: 'aileronblack' !important;
+}
+
+
+
+
+@font-face {
+    font-family: 'aileronblack_italic';
+    src: url('./font/aileron-blackitalic-webfont.woff2') format('woff2'),
+         url('./font/aileron-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.blackitalictxt{
+    font-family: 'aileronblack_italic' !important;
+}
+
+
+
+@font-face {
+    font-family: 'aileronbold';
+    src: url('./font/aileron-bold-webfont.woff2') format('woff2'),
+         url('./font/aileron-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.boldtxt{
+    font-family: 'aileronbold' !important;
+}
+
+
+@font-face {
+    font-family: 'aileronbold_italic';
+    src: url('./font/aileron-bolditalic-webfont.woff2') format('woff2'),
+         url('./font/aileron-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.bolditalictxt{
+    font-family: 'aileronbold_italic' !important;
+}
+
+
+
+@font-face {
+    font-family: 'aileronheavy';
+    src: url('./font/aileron-heavy-webfont.woff2') format('woff2'),
+         url('./font/aileron-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.heavytxt{
+    font-family: 'aileronheavy' !important;
+}
+
+
+
+@font-face {
+    font-family: 'aileronheavy_italic';
+    src: url('./font/aileron-heavyitalic-webfont.woff2') format('woff2'),
+         url('./font/aileron-heavyitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.heavyitalictxt{
+    font-family: 'aileronheavy_italic' !important;
+}
+
+
+@font-face {
+    font-family: 'aileronitalic';
+    src: url('./font/aileron-italic-webfont.woff2') format('woff2'),
+         url('./font/aileron-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.italictxt{
+    font-family: 'aileronitalic' !important;
+}
+
+
+@font-face {
+    font-family: 'aileronlight';
+    src: url('./font/aileron-light-webfont.woff2') format('woff2'),
+         url('./font/aileron-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.lighttxt{
+    font-family: 'aileronlight' !important;
+}
+
+
+
+@font-face {
+    font-family: 'aileronlight_italic';
+    src: url('./font/aileron-lightitalic-webfont.woff2') format('woff2'),
+         url('./font/aileron-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.lightitalictxt{
+    font-family: 'aileronlight_italic' !important;
+}
+
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('./font/aileron-regular-webfont.woff2') format('woff2'),
+         url('./font/aileron-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.regulartxt{
+    font-family: 'aileronregular' !important;
+}
+
+
+
+@font-face {
+    font-family: 'aileronsemibold';
+    src: url('./font/aileron-semibold-webfont.woff2') format('woff2'),
+         url('./font/aileron-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.semiboldtxt{
+    font-family: 'aileronsemibold' !important;
+}
+
+
+@font-face {
+    font-family: 'aileronsemibold_italic';
+    src: url('./font/aileron-semibolditalic-webfont.woff2') format('woff2'),
+         url('./font/aileron-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.semibolditalictxt{
+    font-family: 'aileronsemibold_italic' !important;
+}
+
+html{
+    font-family: 'aileronregular';
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(180deg, rgb(182 19 2), rgb(120 0 21));
+    
+}
+.transi{
+    opacity: 1 !important;
+    transition: opacity .25s ease 0s;
+    -moz-transition: opacity .25s ease 0s;
+    -webkit-transition: opacity .25s ease 0s ;
+}
+.share:hover{
+    animation: pulse 1s ease-in-out;
+    transition: .3s;
+}
+.lis:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    transition: background 300ms ease-in-out;
+    color: rgb(182 19 2) !important;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.jstpd{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.txtoverflow{
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+body{
+    margin: 0px;
+}
+a{
+    color: #f6ff75;
+    font-family: 'aileronlight';
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+h4{
+    color: rgb(255, 255, 255);
+}
+svg{
+    fill: rgb(255, 255, 255);
+}
+.headdiv{
+    margin: 10px;
+}
+body div {
+    padding: 0px;
+    border: 0px;
+    font-family: 'aileronregular';
+    font-size: 12px;
+    font-style: normal;
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0px;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.main2{
+    display: flex;
+}
+.deco{
+    max-width: 680px;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+}
+.hbody{
+    margin-bottom: 16px;
+}
+.bizds2{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    opacity:  0.6;
+    font-weight: 500; 
+}
+
+.bizdis{
+    display: inline-grid;
+    grid-template-columns: 15% auto 15%;
+}
+.ovla{
+    width: calc(100% - 12px);
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    backdrop-filter: blur(10px);
+    opacity: 0;
+    border-radius: 72px; transition: background 100ms ease 0s, -webkit-transform 100ms ease 0s, -webkit-backdrop-filter 1ms ease 0s;
+    box-shadow:  0px 9px 50px 0px rgb(0, 0, 0);
+    z-index: -1;
+    margin: 5px;
+}
+.bizhead{
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    padding: 0px 14px 0px 14px;
+    left: 0px;
+    z-index: 10;
+}
+.bizhead img{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: block;
+    object-position: initial;
+    object-fit: contain;
+
+}
+.biznme{
+    margin-left: 12px;
+    margin-right: 12px;
+    max-width: 100%;
+}
+.bizname{
+    opacity:0;
+    z-index: 1;
+}
+.bizname p{
+    font-size: 1.3em;
+}
+.imgscr{
+    opacity:0;
+    transition: opacity 300ms ease 0s;
+    z-index: 1;
+    justify-self: flex-start;
+}
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+.bizhead::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    box-shadow: rbg(10 11 13) 0px 4px 8px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 300ms ease 0s;
+}
+.sharescroll{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(54, 0, 0) !important;
+}
+.share{
+    justify-content: center;
+    font-family: 'aileronregular';
+    background-color: white;
+    border-radius: 44px;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    z-index: 1;
+    justify-self: flex-end;
+
+}
+.bizinf{
+    display: flex;
+    
+}
+.bizinf2{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 32px;
+    margin-top: 12px;
+}
+
+.bizimg img{
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    display: block;
+    object-position: initial;
+    object-fit: contain;
+
+}
+.nomargin{
+    margin: 0px;
+    font-weight: inherit;
+    line-height: 1.5;
+    text-align: center;
+}
+.itemlist{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lis{
+    font-family: 'aileronbold';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 72px;
+    align-items: center;
+    margin-bottom: 12px;
+    min-height: 64px;
+    background-color: rgba(0, 0, 0, 0);
+    grid-template-columns: 50px auto !important;
+    color: inherit;
+}
+.lis p{
+    display: grid;
+    justify-content: space-around;
+    justify-items: stretch;
+    align-content: center;
+    align-items: center;
+}
+.middetails{
+    width: 100%;
+}
+.listimg{
+    align-items: center;
+    align-content: space-evenly;
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.lis img{
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    object-fit: fill;
+}
+.bsvg{
+    fill: currentcolor;
+    font-weight: 500;
+    font-size: 14px;
+    width: 16px;
+    height: 16px;
+    justify-self: center;
+    display: none;
+}
+.declis{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    display: grid;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 1.4em;
+    min-height: 10vh;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+.pwdby{
+    align-self: flex-end;
+    font-family:'aileronblack' ;
+}
+.svgsocials svg{
+    width: 32px;
+    height: 32px;
+}
+.svgsocials{
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 48px 4px 24px 4px;
+}
